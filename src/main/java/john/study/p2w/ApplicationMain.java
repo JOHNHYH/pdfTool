@@ -7,7 +7,7 @@ public class ApplicationMain {
 
         ExecuteServiceManager executeServiceManager = new ExecuteServiceManager();
         PdfToWordPerfect pdfToWordPerfect = new PdfToWordPerfect(executeServiceManager.getSe());
-        String res = pdfToWordPerfect.pdftoword("C:\\Users\\JOHN\\Desktop\\convert\\Java多线程编程核心技术_完整版+PDF电子书下载+带书签目录.pdf");
+        String res = pdfToWordPerfect.pdftoword("******.pdf");
         System.out.println(res);
         executeServiceManager.getSe().shutdown();
     }
