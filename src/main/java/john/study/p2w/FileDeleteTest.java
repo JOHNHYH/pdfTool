@@ -18,8 +18,4 @@ public class FileDeleteTest {
         }
         file.delete();
     }
-
-    public static void main(String[] args) {
-        new FileDeleteTest().clearFiles("D:\\IDEAworkspace\\pdfTool\\split\\");
-    }
 }
